@@ -44,7 +44,7 @@ export default function Profile() {
             </Flex>
                         
             <Flex bg="yellow.800" h="30vh" w='30vh' justify="flex-end" mt={4} ml ={isNotSmallerScreen? 4 : 0} direction="column" rounded="xl" _hover={{ bg: "green.400", }}>
-                <Icon  p="4" as={DiWebplatform} w="20" h="20"/>
+                <Icon color="white" p="4" as={DiWebplatform} w="20" h="20"/>
                 <Text ml={4}>
                     Web App
                 </Text>
